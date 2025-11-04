@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeux</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+            caption-side: top;
+        }
+        td {
+            border: 1px solid black;
+        }
+        th {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -15,6 +27,32 @@
                 title="Retourner à la page d'accueil"
             />
         </a>
+    </div>
+    <div>
+        <table>
+            <caption>Liste des jeux</caption>
+            <tr>
+                <th>Shadow of the Nexus</th>
+                <th>Mystic Horizons</th>
+                <th>Iron Blade</th>
+                <th rowspan="3">Uniquement cette semaine</th>
+            </tr>
+            <tr>
+                <td><img src="images/shadow_1.webp"
+                    alt="logo Shadow"
+                    width="256"
+                    height="448"
+                    />
+                </td>
+                <td>Image</td>
+                <td>Image</td>
+            </tr>
+            <tr>
+                <td>Button</td>
+                <td>Button</td>
+                <td>Button</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
