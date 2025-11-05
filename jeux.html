@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeux</title>
-    <style type="text/css">
+    <style>
         table {
             border-collapse: collapse;
-            caption-side: top;
         }
-        td {
-            border: 1px solid black;
-        }
-        th {
+        th, td{
             border: 1px solid black;
         }
     </style>
@@ -31,28 +27,128 @@
     <div>
         <table>
             <caption>Liste des jeux</caption>
+            <!-- Première rangée -->
             <tr>
                 <th>Shadow of the Nexus</th>
                 <th>Mystic Horizons</th>
                 <th>Iron Blade</th>
-                <th rowspan="3">Uniquement cette semaine</th>
+                <th rowspan="3">
+                    <i>
+                        Uniquement<br/>
+                        cette<br/>
+                        semaine
+                    </i>
+                </th>
             </tr>
             <tr>
                 <td><img src="images/shadow_1.webp"
-                    alt="logo Shadow"
-                    width="256"
-                    height="448"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Shadow of the Nexus"
                     />
                 </td>
-                <td>Image</td>
-                <td>Image</td>
+                <td><img src="images/mystic_2.webp"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Mystic Horizons"
+                    />
+                </td>
+                <td><img src="images/iron_3.webp"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Iron Blade"
+                    />
+                </td>
             </tr>
             <tr>
-                <td>Button</td>
-                <td>Button</td>
-                <td>Button</td>
+                <td><button type="button">Ajouter au panier - 29<sup>99$</sup></button></td>
+                <td><button type="button">Ajouter au panier - 39<sup>99$</sup></button></td>
+                <td><button type="button">Ajouter au panier - 19<sup>99$</sup></button></td>
+            </tr>
+            <!-- Deuxième rangée -->
+            <tr>
+                <th>Victory Zone</th>
+                <th>Last Survivor - <i>passe de combat</i></th>
+                <th>Skybound Adventure</th>
+                <th rowspan="3"><i>En promo</i></th>
+            </tr>
+            <tr>
+                <td><img src="images/victory_2.png"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Victory Zone"
+                    />
+                </td>
+                <td><img src="images/last_2.webp"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Last Survivor - passe de combat"
+                    />
+                </td>
+                <td><img src="images/skybound_1.webp"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Skybound Adventure"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button">Ajouter au panier - <del>25<sup>99$</sup></del> 12<sup>99$</sup></button></td>
+                <td><button type="button">Ajouter au panier - <del>10<sup>99$</sup></del> 5<sup>99$</sup></button></td>
+                <td><button type="button">Ajouter au panier - <del>20<sup>99$</sup></del> 15<sup>99$</sup></button></td>
+            </tr>
+            <!-- Troisième rangée -->
+            <tr>
+                <th>Eternal Quest</th>
+                <th>Sunny's Island</th>
+                <th>Urban Brawl</th>
+                <th rowspan="3"><i>Rétro</i></th>
+            </tr>
+            <tr>
+                <td><img src="images/eternal_3.webp"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Eternal Quest"
+                    />
+                </td>
+                <td><img src="images/sunny_2.webp"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Sunny's Island"
+                    />
+                </td>
+                <td><img src="images/urban_1.webp"
+                    alt="Image"
+                    width="200"
+                    height="350"
+                    title="Urban Brawl"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button">Ajouter au panier - 7<sup>99$</sup></button></td>
+                <td><button type="button">Ajouter au panier - 4<sup>99$</sup></button></td>
+                <td><button type="button">Ajouter au panier - 19<sup>99$</sup></button></td>
             </tr>
         </table>
+    </div>
+    <div>
+        <a href="#top">
+            <img src="images/up-arrow.png"
+            alt="arrow"
+            width="50"
+            height="50"
+            title="Retourner en haut de la page"
+            />
+        </a>
     </div>
 </body>
 </html>
